@@ -1,0 +1,17 @@
+{
+  "name": "System Web Theme Adaptor (BETA)",
+  "description": "Synchronise your system theme settings with web settings. Currently working only for ClickUp App",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://app.clickup.com/*"],
+  "icons": {
+    "16": "./icon.png",
+    "32": "./icon.png",
+    "48": "./icon.png",
+    "128": "./icon.png"
+  }
+}
